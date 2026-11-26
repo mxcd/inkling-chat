@@ -7,7 +7,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/govengers/aikido v1.2.1-0.20261116182110-12ae46b8bdc4
 	github.com/govengers/config/v2 v2.0.1-0.20261115231051-dfddb26efd21
-	github.com/govengers/telemetry v0.1.2-0.20261116175835-33aec8a72a02
+	github.com/govengers/telemetry v0.2.0
 	github.com/govengers/wide-event-logger v1.0.1-0.20261116180519-5d6619427a61
 	github.com/prometheus/client_golang v1.25.0
 	github.com/stretchr/testify v1.12.1
