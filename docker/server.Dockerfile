@@ -31,7 +31,7 @@ RUN --mount=type=cache,target=/root/.cache/go-build \
 
 # No shell, no package manager, not root (DEP-003). The user is numeric (distroless "nonroot" is 65532), so a
 # pod with runAsNonRoot: true can verify it; a user name cannot be verified and fails the pod.
-FROM gcr.io/distroless/static-debian13:nonroot@sha256:18f4cc26c9ffa7f20a359298be7deadac5c607c8e03a02b8119f1a5fc2f82c99
+FROM gcr.io/distroless/static-debian13:nonroot@sha256:8ce6dd87e9823c5b48dcfb2c8604714ccb351ce59607327bcc4957448da279b5
 COPY --from=build /out/server /server
 USER 65532:65532
 # 8080 serves the API, 9090 the internal listener for /metrics (MET-001).
