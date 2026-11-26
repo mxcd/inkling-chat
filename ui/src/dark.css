@@ -1,0 +1,31 @@
+/* Dark theme: the tokens of styles.css and the few colours it spells out, under data-theme="dark" on <html>. */
+:root[data-theme="dark"] {
+  --bg: #121117;
+  --surface: #1b1a21;
+  --ink: #ecebf0;
+  --ink-2: #c3c0cc;
+  --muted: #9a96a5;
+  --line: #2a2832;
+  --line-2: #3a3744;
+  --hover: #24222b;
+  --brand: #ec5a8f;
+  --brand-ink: #f48fb4;
+  --brand-soft: #3a1d2a;
+  --user: #26242e;
+  color-scheme: dark;
+}
+:root[data-theme="dark"] * { scrollbar-color: #3a3744 transparent; }
+:root[data-theme="dark"] .msg-error,
+:root[data-theme="dark"] .step-failed { background: #3a1f17; color: #f3a68a; }
+:root[data-theme="dark"] .step-ok svg { color: #4cc38a; }
+:root[data-theme="dark"] .composer { box-shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 14px 34px -18px rgba(0, 0, 0, .7); }
+:root[data-theme="dark"] .composer:focus-within { border-color: #4a4656; }
+:root[data-theme="dark"] .composer textarea::placeholder { color: #77738a; }
+:root[data-theme="dark"] .send { background: var(--ink); color: var(--bg); }
+:root[data-theme="dark"] .send:hover:not(:disabled) { background: #ffffff; }
+:root[data-theme="dark"] .round:disabled { background: #2a2832; color: #6b6878; }
+:root[data-theme="dark"] .rich pre { background: #17161c; }
+:root[data-theme="dark"] .side,
+:root[data-theme="dark"] .ctx { background: #16151b; }
+:root[data-theme="dark"] .suggest button:hover { box-shadow: 0 8px 20px -14px rgba(0, 0, 0, .8); }
+:root[data-theme="dark"] .side-scrim { background: rgba(0, 0, 0, .5); }

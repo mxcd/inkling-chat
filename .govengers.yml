@@ -1,0 +1,11 @@
+# govengers/standards profile (README "Profiles"). Every exception names the rule and why.
+# There is no database yet: conversations live in memory (aikido's history), so the data-access and
+# data-integrity rules have nothing to check.
+profile: service
+exceptions:
+  - rule: AUTH-002
+    reason: single-user tool without accounts (no database yet); the API listens on loopback only by default
+  - rule: API-011
+    reason: one streaming route (server-sent events), which livewire does not generate; its types in ui/src/api.ts are written by hand
+  - rule: TST-011
+    reason: the end-to-end suite drives the API of the built binary; browser journeys for the one-page frontend are not written yet

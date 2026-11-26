@@ -1,0 +1,11 @@
+# Scratch output of the justfile: test reports, coverage, e2e builds and the e2e skip keys (LAY-001)
+sandbox/
+*.test
+# The built frontend, embedded from here (internal/web); the placeholder index.html next to it is committed
+internal/web/html/dist/
+ui/node_modules/
+# The agent's files
+workspace/*
+!workspace/.gitkeep
+.env
+.DS_Store
