@@ -71,8 +71,8 @@ github.com/govengers/aikido v1.2.1-0.20261116182110-12ae46b8bdc4 h1:649uxoF9zvG1
 github.com/govengers/aikido v1.2.1-0.20261116182110-12ae46b8bdc4/go.mod h1:teNCrg7I66rx0eiPcKw2p0skOyUDuQIwY28dB+ipVOg=
 github.com/govengers/config/v2 v2.0.1-0.20261115231051-dfddb26efd21 h1:wt8IqgT5dlOcVn+H71IPUyqkz6OXAFtDNHw7f8FR/S4=
 github.com/govengers/config/v2 v2.0.1-0.20261115231051-dfddb26efd21/go.mod h1:vOK4B2J6eNc3cHqJgW6WZCrHdMBPLHhwvjV41GDA9KA=
-github.com/govengers/telemetry v0.1.2-0.20261116175835-33aec8a72a02 h1:GP6/z0rlO6NBX9eVchT12l5CXDNpzWI2b8f0R8VWSKk=
-github.com/govengers/telemetry v0.1.2-0.20261116175835-33aec8a72a02/go.mod h1:q2lCoJ9Z6Ct27ihG4j4OigsR/xWtwnV0r2WUAqiyst0=
+github.com/govengers/telemetry v0.2.0 h1:Dmd6JgZxyChQiWycxwcQDw3Xh/wiB1ANrUtOPwarPsI=
+github.com/govengers/telemetry v0.2.0/go.mod h1:q2lCoJ9Z6Ct27ihG4j4OigsR/xWtwnV0r2WUAqiyst0=
 github.com/govengers/wide-event-logger v1.0.1-0.20261116180519-5d6619427a61 h1:45UIkgDso9QdjDJOoxv85EJUW1R1Bbd1Hbbrt6A3Pqg=
 github.com/govengers/wide-event-logger v1.0.1-0.20261116180519-5d6619427a61/go.mod h1:0UaMpeVycZlUG6zrgB8Fbvv2he4FJDQpb7hAGwCKXlU=
 github.com/grpc-ecosystem/grpc-gateway/v2 v2.31.0 h1:Bd7KaOxzULLxtZ/K5s1aLbWhR0+5RToO65TXHsf3bqQ=
