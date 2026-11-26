@@ -4,7 +4,7 @@
 # tag (DEP-004); Dependabot proposes the bumps.
 
 # The frontend (DEP-001). Vite writes the build to ../internal/web/html/dist, where the binary embeds it.
-FROM --platform=$BUILDPLATFORM oven/bun:1@sha256:1d22548f177f4ff38e0c15baa3c2c46c6c2060ba2d1bc573bb4720b407548f1d AS ui
+FROM --platform=$BUILDPLATFORM oven/bun:1@sha256:3aa040e5445efa09d75bb428a64ba50db13e2b3ac9b6b0c7f145615f62b2ee18 AS ui
 WORKDIR /src/ui
 COPY ui/package.json ui/bun.lock ./
 RUN bun install --frozen-lockfile
